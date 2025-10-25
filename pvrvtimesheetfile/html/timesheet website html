@@ -1,0 +1,23 @@
+ <!DOCTYPE html>
+<html>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1"
+<link rel = "stylesheet" href = "timesheet.css">
+<body>
+<nav class = "pvrv-navbar pvrv-nav-item">
+    <a href = "#home" class = "pvrv-button pvrv-bar-item">Home</a>
+    <a href = "#timesheet.html" class = "pvrv-button pvrv-bar-item">timesheet</a>
+</nav>
+<section id="home">
+    <h1>Welcome to, we keep our timesheets here!</h1>
+</section>
+
+<section id="timesheet">
+    <h2>Timesheets, no way!</h2>
+    <p>Put your name and time here.</p>
+</section>
+
+
+
+
+</body>

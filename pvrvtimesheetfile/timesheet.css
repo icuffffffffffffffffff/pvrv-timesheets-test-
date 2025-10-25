@@ -1,0 +1,20 @@
+css
+
+
+.pvrv-navbar {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    padding: 8px 0; 
+}
+.pvrv-nav-item {
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-family: Calibri, sans-serif;
+}
+.pvrv-nav-item:hover {
+    background-color:aqua
+    color: blue;
+    border-radius: 4px;
+}

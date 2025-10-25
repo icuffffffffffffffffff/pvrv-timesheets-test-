@@ -1,0 +1,17 @@
+<div id = "timesheet"></div>
+
+<script>
+    const timesheet = new pvrv.timesheet("timesheet", {
+        viewType: "days"
+        Datestart: Date.today().firstdayofmonth(),
+        days: Date.today().daysinMonth(),
+        scale: "CellDuration",
+        CellDuration: 30,
+        timeHeaders: [
+            {groupBy: "Month", format: "MMMM yyyy"},
+            { groupBy: "Hour"},
+            { groupBy: "Cell", format: "DD:mm"}
+        ]
+    });
+    timesheet.init();
+</script> 
